@@ -1,0 +1,125 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Markazi', sans-serif;
+}
+/** HEADER START **/
+#header-nav{
+    background-color: #f8d8cd;
+    border-radius: 0px;
+    border: 0;
+}
+.navbar-brand{
+    padding-top: 15px;
+    margin: 10px 15px 10px 0;
+}
+.navbar-brand h1{ /* restaurant name */
+    font-family: 'Lora', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #557c3e;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: 0.75;
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+/********Navigation bar ************/
+#nav-list{
+    margin-top: 10px;
+    background-color: #ba7b65;
+   
+}
+#nav-list a{
+    color: #eae692;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid #8d5c5c;
+
+}
+
+#nav-list a:hover{
+    background-color: darkred;
+    color: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -48px;
+}
+.navbar-nav{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#nav-list{
+    margin-top: 0px;
+}
+/*******Main Content **********/
+#menu-categories-title{
+    margin-bottom: 25px;
+   }
+#chicken, #beef, #sushi{
+    background-color:#f8d8cd;
+    overflow: hidden;
+    color: #61122f;
+/*
+    margin-top: 20px;
+    margin-bottom: 20px;
+*/
+    height: 1000px;
+}
+
+.relPos{
+    position: relative;
+}
+.row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#menu-title1, #menu-title2, #menu-title3{
+    color: #1e3410; 
+    font-weight: bold;
+}
+   
+/*******End Main Content ********/
+/**********Large devices only *********/
+@media (min-width:1200px){
+    .pull-left{
+    float: left;
+    margin-left: 0px !important; 
+    }
+   
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #collapsable nav {
+        padding-bottom: 0px;
+    }
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+}
+
+
+
+
+
+
+
